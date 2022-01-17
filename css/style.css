@@ -15,7 +15,7 @@ body {
 .heading-primary--main {
   font-size: 6rem;
   color: #eeb14e;
-  margin-bottom: 1rem; }
+  margin: 1rem; }
 
 .heading-primary--sub {
   font-size: 3rem;
@@ -24,6 +24,7 @@ body {
   animation-timing-function: ease-out; }
 
 .heading-section--main {
+  margin-top: 5rem;
   font-size: 2.5rem;
   color: #7ed56f; }
 
@@ -34,8 +35,8 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-padding-top-bottom {
-  padding: 10vh 0; }
+.u-padding-top {
+  padding-top: 10vh; }
 
 .u-padding-top-bottom-big {
   padding: 20vh 0 25vh 0; }
@@ -43,11 +44,10 @@ body {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  padding: 2rem; }
+  padding: 3rem; }
 
 .projects-card {
-  max-width: 40rem;
+  max-width: 30rem;
   overflow: hidden;
   background: #434242;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -57,7 +57,8 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  color: #fff; }
+  color: #fff;
+  margin: 1rem; }
   .projects-card img {
     width: 100%;
     display: block; }
