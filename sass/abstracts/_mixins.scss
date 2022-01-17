@@ -1,0 +1,13 @@
+@mixin card {
+  max-width: 40rem;
+  overflow: hidden;
+  background: $color-grey-4;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: solid 2px $color-orange-cv;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: $color-white;
+}

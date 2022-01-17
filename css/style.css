@@ -8,8 +8,65 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-color: #263546; }
+  background-color: #263546;
+  color: #fff;
+  font-family: Raleway, Helvetica, sans-serif; }
+
+.heading-primary--main {
+  font-size: 6rem;
+  color: #eeb14e;
+  margin-bottom: 1rem; }
+
+.heading-primary--sub {
+  font-size: 3rem;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
+
+.heading-section--main {
+  font-size: 2.5rem;
+  color: #7ed56f; }
 
 .flex-justify-center {
   display: flex;
   justify-content: center; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-padding-top-bottom {
+  padding: 10vh 0; }
+
+.u-padding-top-bottom-big {
+  padding: 20vh 0 25vh 0; }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 2rem; }
+
+.projects-card {
+  max-width: 40rem;
+  overflow: hidden;
+  background: #434242;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: solid 2px #eeb14e;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff; }
+  .projects-card img {
+    width: 100%;
+    display: block; }
+  .projects-card__text {
+    padding: 1rem;
+    font-size: 2rem; }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 50rem; }
