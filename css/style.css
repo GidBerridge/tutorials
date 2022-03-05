@@ -76,8 +76,11 @@ a {
     color: #f2d375;
     padding-top: 1rem; }
   .projects-card__icon {
+    display: flex;
+    left: 50%;
     width: 5rem;
-    margin: 0 auto 1rem auto; }
+    margin: 1rem auto;
+    align-content: flex-end; }
 
 .title {
   display: flex;
