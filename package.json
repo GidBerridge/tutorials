@@ -1,12 +1,12 @@
 {
   "name": "tutorial-site",
+  "source": "index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
